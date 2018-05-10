@@ -3,9 +3,10 @@
 from itertools import islice, chain
 from collections import namedtuple
 
+import clize
+
 from bs4 import BeautifulSoup
 from titlecase import titlecase
-import clize
 
 
 def middle(lst):

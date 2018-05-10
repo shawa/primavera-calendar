@@ -1,13 +1,15 @@
-from ics import Calendar, Event
+#!/usr/bin/env python3
 
 import logging
 import sys
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, format='%(asctime)s: %(message)s')
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, format='%(message)s')
 
 import arrow
 import clize
 import requests
 import requests_cache
+
+from ics import Calendar, Event
 
 requests_cache.install_cache('requests_cache', expire_after=(60 * 60 * 24))
 
