@@ -1,0 +1,9 @@
+# python import cache
+**/__pycache__
+**/*.pyc
+
+# requests-cache backend
+*.sqlite
+
+# program output
+*.ics

@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+ics = "*"
+"bs4" = "*"
+pipetools = "*"
+clize = "*"
+titlecase = "*"
+arrow = "*"
+tabulate = "*"
+requests = "*"
+requests-cache = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
