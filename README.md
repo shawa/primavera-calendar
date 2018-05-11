@@ -1,6 +1,6 @@
 # Primavera Sound 2018 Calendar Generator
 
-This is a Python utility for generating an `.ics` file for the timetable on Primavera Sound's 2018 webpage. Recommended useage is to create a shared Google Calendar you and your pals can use to click 'attending' etc to coordinate bops.
+This is a Python utility for generating an `.ics` file for the timetable on Primavera Sound's 2018 webpage. Recommended usage is to create a shared Google Calendar you and your pals can use to click 'attending' etc to coordinate bops.
 
 ## Setup
 
